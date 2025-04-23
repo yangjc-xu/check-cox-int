@@ -44,20 +44,6 @@ Run the scripts in the respective subfolders:
 
 ---
 
-### `wrapper-scripts/`
-Contains all R scripts that iterate through all sub-folders in the correct order would eliminate manual navigation and guarantee that the regenerated outputs mirror those in `figures`.
-
-Run the scripts in the respective subfolders:
-- `figures-code/Figure1/`
-- `figures-code/Figure2/`
-- `figures-code/Figure3/`
-- `figures-code/Figure4/`
-- `figures-code/Figure5/`
-- `figures-code/FigureS1/`
-- `figures-code/FigureS2/`
-
----
-
 ### `figures/`
 Contains all the figures included in the paper.
 
@@ -70,6 +56,15 @@ Contains the synthetic datasets used in the application section, along with desc
 
 ### `output/`
 Contains summarized results required to reproduce all the figures.
+
+---
+
+### `wrapper-scripts/`
+Contains R scripts that iterate through all sub-folders in the correct order, eliminating the need for manual navigation and ensuring that the regenerated outputs match those in `figures`.
+
+Run the following scripts:
+- `wrapper-scripts/run simulations.R` to generate simulation results
+- `wrapper-scripts/render_figures.R` to generate figures
 
 ---
 
