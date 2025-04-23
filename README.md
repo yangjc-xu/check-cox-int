@@ -45,7 +45,7 @@ Run the scripts in the respective subfolders:
 ---
 
 ### `wrapper-scripts/`
-Contains all R scripts that iterate through all sub-folders in the correct order would eliminate manual navigation and guarantee that the regenerated outputs mirror those in \texttt{figures}.
+Contains all R scripts that iterate through all sub-folders in the correct order would eliminate manual navigation and guarantee that the regenerated outputs mirror those in `figures`.
 
 Run the scripts in the respective subfolders:
 - `figures-code/Figure1/`
