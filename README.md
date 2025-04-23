@@ -1,6 +1,6 @@
 # Checking the Cox Proportional Hazards Model with Interval-Censored Data
 
-This repository contains all the code and data required to reproduce the figures and results from our study on assessing the Cox regression model with interval-censored data.
+This repository contains the code and data required to reproduce the figures and results from our study on checking the Cox regression model with interval-censored data.
 
 ## 📁 Repository Structure
 
@@ -24,7 +24,8 @@ Each R script must be run multiple times to obtain enough simulation replicates.
 ### `application-code/`
 Contains the code for generating the results for Figures 4–5 and numerical summaries in Section 4 of the paper.
 
-- **Figures 4 & 5**: R scripts in `prop_diabt_glucose/` and `ff_diabt_bmi_logtGlucose/`
+- **Figures 4**: R scripts in `prop_diabt_glucose/` and `ff_diabt_bmi_logtGlucose/`
+- **Figures 5**: R scripts in `ff_hyper_SysBP/` and `ff_hyper_DiaBP/`
 - Additional R scripts produce outputs referenced in Section 4.
 
 ---
@@ -63,7 +64,7 @@ Contains summarized results required to reproduce all the figures.
 ### System Requirements
 
 - **OS**: Linux, macOS, or Windows
-- **R Version**: ≥ 4.1.0
+- **R Version**: ≥ 4.3.2
 - **Compiler**: Ensure R is configured with a C/C++ compiler (e.g., `g++`, `clang`)
 
 ### Required R Packages
@@ -71,11 +72,17 @@ Contains summarized results required to reproduce all the figures.
 Install the required R packages using the script below:
 
 ```r
-install.packages(c(
-  "survival", "icenReg", "ggplot2", "dplyr", 
-  "tidyr", "data.table", "survminer", "gridExtra",
-  "cowplot", "parallel", "foreach", "doParallel"
-))
+# Use 'remotes' to install specific versions
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+
+remotes::install_version("tidyverse", version = "2.0.0")
+remotes::install_version("Rcpp", version = "1.0.13")
+remotes::install_version("RcppArmadillo", version = "0.12.8.4.0")
+remotes::install_version("ggpubr", version = "0.6.0")
+remotes::install_version("latex2exp", version = "0.9.6")
+remotes::install_version("dplyr", version = "1.1.4")
 ```
 
 Or use the provided R script `install_packages.R` if available.
@@ -87,8 +94,8 @@ Or use the provided R script `install_packages.R` if available.
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-anonymous-username/cox-interval-checking.git
-cd cox-interval-checking
+git clone https://github.com/yangjc-xu/check-cox-int.git
+cd check-cox-int
 ```
 
 2. **Open R or RStudio**
@@ -108,9 +115,3 @@ cd cox-interval-checking
 ## 📜 License
 
 This code is released under the MIT License.
-
----
-
-## 📬 Contact
-
-This repository is intended for anonymous review. Please contact the corresponding author after review completion.
