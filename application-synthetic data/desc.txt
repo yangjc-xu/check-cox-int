@@ -1,0 +1,16 @@
+This file provides a description of the synthetic dataset stored in synthetic_aric.RData. This dataset is completely independent of the original data and is intended to illustrate code usage. It consists of 1,000 rows and 12 columns, representing 500 pseudo-subjects, with each subject corresponding to two rows.
+
+Columns:
+Subject_ID   - fake ID
+Event        - type of event. Diabt = Diabetes, Hypert = Hypertension
+Left_Time    - left endpoint of the censoring interval
+Right_Time   - right endpoint of the censoring interval
+Center       - U.S. community that a subject belongs. F = Forsyth County, North Carolina, J = Jackson, Mississippi, M = suburbs of Minneapolis, Minnesota, W = Washington County, Maryland
+Age          - age of the pseudo-subject
+Sex          - sex of the pseudo-subject, F = Female, M = Male
+Race         - race of the pseudo-subject, B = African-American, W = Caucasian
+BMI          - body mass index at baseline
+Glucose      - glucose level at baseline
+SysBP        - systolic blood pressure at baseline
+DiaBP        - diastolic blood pressure at baseline
+
