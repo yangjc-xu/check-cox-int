@@ -1,6 +1,6 @@
 # Checking the Cox Proportional Hazards Model with Interval-Censored Data
 
-This repository contains the code and data required to reproduce the figures and results from our study on checking the Cox regression model with interval-censored data.
+This repository contains the code and data required to reproduce the figures and results from our paper on checking the Cox regression model with interval-censored data.
 
 ## 📁 Repository Structure
 
@@ -110,8 +110,3 @@ cd check-cox-int
 
 4. **Repeat simulations as necessary for stable results**
 
----
-
-## 📜 License
-
-This code is released under the MIT License.
