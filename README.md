@@ -62,7 +62,7 @@ Contains summarized results required to reproduce all the figures.
 ### `wrapper-scripts/`
 Contains R scripts that iterate through all sub-folders in the correct order, eliminating the need for manual navigation and ensuring that the regenerated outputs match those in `figures`:
 
-- `wrapper-scripts/run simulations.R`
+- `wrapper-scripts/run_simulations.R`
 - `wrapper-scripts/render_figures.R`
 
 ---

@@ -3,8 +3,8 @@ set.seed(seed)
 filename <- paste("simu", seed, ".RData", sep = "")
 library(dplyr)
 library(Rcpp)
-sourceCpp("./unireg_indep.cpp")
-sourceCpp("./profile_new.cpp")
+sourceCpp("./simulation-code/ff_n400_twisted/unireg_indep.cpp")
+sourceCpp("./simulation-code/ff_n400_twisted/profile_new.cpp")
 ##################simulation##############################################
 
 find_time = function(simpdat){
