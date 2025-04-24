@@ -111,7 +111,7 @@ cd check-cox-int
    Run the relevant scripts as described above. For example,
 
    ```r
-   source("simulation-code/wrapper-scripts/run_simulation.R")
+   source("./wrapper-scripts/run_simulation.R")
    ```
 
 4. **Repeat simulations as necessary for stable results**
@@ -121,6 +121,6 @@ cd check-cox-int
    Run the relevant scripts as described above. For example,
 
    ```r
-   source("simulation-code/wrapper-scripts/render_figures.R")
+   source("./wrapper-scripts/render_figures.R")
    ```
 
