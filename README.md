@@ -93,8 +93,6 @@ remotes::install_version("latex2exp", version = "0.9.6")
 remotes::install_version("dplyr", version = "1.1.4")
 ```
 
-Or use the provided R script `install_packages.R` if available.
-
 ---
 
 ## 🚀 Reproducing Results
@@ -108,13 +106,21 @@ cd check-cox-int
 
 2. **Open R or RStudio**
 
-3. **Run the relevant scripts as described above**
+3. **Perform simulation studies**
 
-   For example, to reproduce Figure 1:
+   Run the relevant scripts as described above. For example,
 
    ```r
-   source("simulation-code/prototype/run_simulation.R")
+   source("simulation-code/wrapper-scripts/run_simulation.R")
    ```
 
 4. **Repeat simulations as necessary for stable results**
+
+5. **Generate figures in the paper**
+
+   Run the relevant scripts as described above. For example,
+
+   ```r
+   source("simulation-code/wrapper-scripts/render_figures.R")
+   ```
 
