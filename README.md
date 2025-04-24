@@ -95,7 +95,6 @@ This installs all required packages in the exact versions used during developmen
 If you prefer manual setup, install the required R packages with specific versions using the script below:
 
 ```r
-# Use 'remotes' to install specific versions
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
