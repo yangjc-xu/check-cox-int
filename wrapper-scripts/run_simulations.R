@@ -32,6 +32,3 @@ source("./simulation-code/prop_n800_mono/main.R")
 source("./simulation-code/prop_n200_quad/main.R")
 source("./simulation-code/prop_n400_quad/main.R")
 source("./simulation-code/prop_n800_quad/main.R")
-
-
-

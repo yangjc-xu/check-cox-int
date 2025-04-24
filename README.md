@@ -67,7 +67,7 @@ Contains R scripts that iterate through all sub-folders in the correct order, el
 
 ---
 
-## 🔧 Setup and Installation
+## 📦 Computing Environment & Package Installation
 
 ### System Requirements
 
@@ -75,9 +75,24 @@ Contains R scripts that iterate through all sub-folders in the correct order, el
 - **R Version**: ≥ 4.3.2
 - **Compiler**: Ensure R is configured with a C/C++ compiler (e.g., `g++`, `clang`)
 
-### Required R Packages
+To ensure reproducibility across systems, this repository provides two setup options:
 
-Install the required R packages using the script below:
+### Option 1: Use `renv` for automatic dependency restoration
+
+This repository includes an `renv.lock` file that captures the exact versions of all R packages used in the project. To recreate the same package environment locally, run:
+
+```r
+install.packages("renv")
+renv::restore()
+```
+
+This installs all required packages in the exact versions used during development. For transparency, each R script ends with `sessionInfo()`, which records the full session environment.
+
+---
+
+### Option 2: Manual installation with `remotes`
+
+If you prefer manual setup, install the required R packages with specific versions using the script below:
 
 ```r
 # Use 'remotes' to install specific versions
