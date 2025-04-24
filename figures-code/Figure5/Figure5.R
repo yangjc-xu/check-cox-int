@@ -14,4 +14,4 @@ plot = ggarrange(p_ff_hyper_SysBP, p_ff_hyper_DiaBP,
 ggsave(plot, file = "./figures/Figure5.pdf", width = 14, height = 6)
 ggsave(plot, file = "./figures/Figure5.eps", width = 14, height = 6)
 
-
+sessionInfo()

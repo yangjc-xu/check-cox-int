@@ -40,3 +40,5 @@ for (i in 1:length(x)) {
 #pval = mean(max(abs(W)) <= apply(abs(W_simu1), MARGIN = 1, FUN = max))
 
 save(W, W_simu1, file = paste("ff_hyper_SysBP_", counter, ".RData", sep = ""))
+
+sessionInfo()

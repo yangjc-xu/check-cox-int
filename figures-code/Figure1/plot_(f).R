@@ -37,3 +37,5 @@ p_cubic = ggplot() +
         title = element_text(size = 15))
 p_cubic
 save(p_cubic, file = "./output/Figure1/cubic_plot.RData")
+
+sessionInfo()

@@ -58,7 +58,6 @@ source("./figures-code/FigureS2/plot_prop_quad_n400.R")
 source("./figures-code/FigureS2/plot_prop_quad_n800.R")
 source("./figures-code/FigureS2/FigureS2.R")
 
-
-
+sessionInfo()
 
 

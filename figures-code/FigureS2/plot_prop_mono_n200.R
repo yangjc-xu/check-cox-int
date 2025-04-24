@@ -225,5 +225,5 @@ p_prop_mono_n200 = ggplot(data = df) +
 p_prop_mono_n200
 save(p_prop_mono_n200, file = "./output/FigureS2/prop_mono_n200_graph_plot.RData")  
 
-
+sessionInfo()
 

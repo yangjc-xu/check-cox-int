@@ -42,3 +42,5 @@ for (i in 1:length(x)) {
 mean(max(abs(W)) <= apply(abs(W_simu1), MARGIN = 1, FUN = max))
 
 save(W, W_simu1, file = paste("ff_diabt_bmi_timedep1_", counter, ".RData", sep = ""))
+
+sessionInfo()

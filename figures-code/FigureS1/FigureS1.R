@@ -14,3 +14,5 @@ p_ff = ggarrange(p_ff_quad_n200,p_ff_quad_n400,p_ff_quad_n800,
                  ncol = 3, nrow = 2)
 ggsave(p_ff, file = "./figures/FigureS1.pdf", width = 16, height = 9, units = "in")
 ggsave(p_ff, file = "./figures/FigureS1.eps", width = 16, height = 9, units = "in")
+
+sessionInfo()

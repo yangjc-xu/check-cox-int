@@ -18,4 +18,5 @@ p = ggarrange(p_quad, p_log,
 ggsave(p, width = 15, height = 7.5, file = "./figures/Figure1.pdf", , units = "in")
 ggsave(p, width = 15, height = 7.5, file = "./figures/Figure1.eps", units = "in")
 
+sessionInfo()
 

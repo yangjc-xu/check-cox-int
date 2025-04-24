@@ -33,5 +33,5 @@ p_ff_optimal_n800
 
 save(p_ff_optimal_n800, file = "./output/Figure2/ff_quad_n800_plot.RData")
 
-
+sessionInfo()
 

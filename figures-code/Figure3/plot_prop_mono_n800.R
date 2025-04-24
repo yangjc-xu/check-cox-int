@@ -34,6 +34,7 @@ p_prop_optimal_n800
 
 save(p_prop_optimal_n800, file = "./output/Figure3/prop_mono_n800_plot.RData")
   
+sessionInfo()
   
   
   

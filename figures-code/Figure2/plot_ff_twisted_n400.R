@@ -33,5 +33,5 @@ p_ff_cates_n400
 
 save(p_ff_cates_n400, file = "./output/Figure2/ff_twisted_n400_plot.RData")
 
-
+sessionInfo()
 

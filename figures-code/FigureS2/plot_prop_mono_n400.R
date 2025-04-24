@@ -224,3 +224,5 @@ p_prop_mono_n400 = ggplot(data = df) +
         title = element_text(size = 15))
 p_prop_mono_n400
 save(p_prop_mono_n400, file = "./output/FigureS2/prop_mono_n400_graph_plot.RData")
+
+sessionInfo()

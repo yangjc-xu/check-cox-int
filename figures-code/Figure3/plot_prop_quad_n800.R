@@ -33,6 +33,6 @@ p_prop_quad_n800
 
 save(p_prop_quad_n800, file = "./output/Figure3/prop_quad_n800_plot.RData")
   
-  
+sessionInfo()
   
   

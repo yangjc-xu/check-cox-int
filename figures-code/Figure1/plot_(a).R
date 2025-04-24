@@ -37,3 +37,5 @@ p_quad = ggplot() +
         title = element_text(size = 15))
 p_quad
 save(p_quad, file = "./output/Figure1/quad_plot.RData")
+
+sessionInfo()

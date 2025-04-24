@@ -45,3 +45,5 @@ p_ff_hyper_SysBP = ggplot(data = df_ff_hyper_SysBP) +
         title = element_text(size = 18))
 p_ff_hyper_SysBP
 save(p_ff_hyper_SysBP, file = "./output/Figure5/ff_hyper_SysBP_plot.RData")  
+
+sessionInfo()

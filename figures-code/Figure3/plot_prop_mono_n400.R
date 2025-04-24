@@ -33,6 +33,7 @@ p_prop_optimal_n400
 
 save(p_prop_optimal_n400, file = "./output/Figure3/prop_mono_n400_plot.RData")
   
+sessionInfo()
   
   
   

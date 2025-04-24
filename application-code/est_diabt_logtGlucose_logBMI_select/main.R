@@ -74,3 +74,5 @@ cat("Time difference = ",Sys.time()-startT,"\n\n")
 # }
 
 save(result_aric, X_aric, X_dep_new, simpdat_aric, Time_aric, file = "result_estimation_diabt_logtGlucose_logBMI_select.RData")
+
+sessionInfo()

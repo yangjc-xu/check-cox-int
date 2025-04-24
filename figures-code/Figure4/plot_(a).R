@@ -45,3 +45,5 @@ p_prop_diabt_glucose = ggplot(data = df_prop_diabt_glucose_trans) +
         title = element_text(size = 18))
 p_prop_diabt_glucose
 save(p_prop_diabt_glucose, file = "./output/Figure4/prop_diabt_glucose_plot.RData")
+
+sessionInfo()

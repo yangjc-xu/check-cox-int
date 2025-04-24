@@ -184,3 +184,5 @@ p_ff_quad_n800 = ggplot(data = df) +
         title = element_text(size = 15))
 p_ff_quad_n800
 save(p_ff_quad_n800, file = "./output/FigureS1/ff_quad_n800_graph_plot.RData")  
+
+sessionInfo()

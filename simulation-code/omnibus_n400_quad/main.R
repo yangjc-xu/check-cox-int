@@ -159,5 +159,6 @@ for (l in 1:length(r_seq)) {
 
 save(power1, file = filename)
 
+sessionInfo()
 
 

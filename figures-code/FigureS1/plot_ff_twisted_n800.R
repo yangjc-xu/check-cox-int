@@ -191,3 +191,4 @@ p_ff_twisted_n800 = ggplot(data = df) +
 p_ff_twisted_n800
 save(p_ff_twisted_n800, file = "./output/FigureS1/ff_twisted_n800_graph_plot.RData")  
 
+sessionInfo()

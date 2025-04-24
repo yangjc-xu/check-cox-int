@@ -36,3 +36,5 @@ p_log = ggplot(data = df) +
         title = element_text(size = 15))
 p_log
 save(p_log, file = "./output/Figure1/log_plot.RData")
+
+sessionInfo()

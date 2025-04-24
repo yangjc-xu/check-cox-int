@@ -32,7 +32,6 @@ p_prop_optimal_n200 = ggplot(data = df, aes(x = r, y = power, color = Test, shap
 p_prop_optimal_n200
 
 save(p_prop_optimal_n200, file = "./output/Figure3/prop_mono_n200_plot.RData")
-  
-  
-  
+
+sessionInfo()
   

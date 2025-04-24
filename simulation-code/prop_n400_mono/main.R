@@ -219,5 +219,5 @@ for (l in 1:length(r_seq)) {
 
 save(power1, power_score_t, power_score_logt, file = filename)
 
-
+sessionInfo()
 

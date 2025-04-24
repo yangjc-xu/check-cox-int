@@ -74,3 +74,5 @@ cat("Time difference = ",Sys.time()-startT,"\n\n")
 # }
 
 save(result_aric, X_aric, simpdat_aric, Time_aric, file = "result_estimation_hyper_expBP_select.RData")
+
+sessionInfo()

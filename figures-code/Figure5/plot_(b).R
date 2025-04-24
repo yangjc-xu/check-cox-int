@@ -45,3 +45,5 @@ p_ff_hyper_DiaBP = ggplot(data = df_ff_hyper_DiaBP) +
         title = element_text(size = 18))
 p_ff_hyper_DiaBP
 save(p_ff_hyper_DiaBP, file = "./output/Figure5/ff_hyper_DiaBP_plot.RData")
+
+sessionInfo()

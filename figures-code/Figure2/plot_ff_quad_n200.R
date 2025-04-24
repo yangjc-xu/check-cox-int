@@ -33,5 +33,5 @@ p_ff_optimal_n200
 
 save(p_ff_optimal_n200, file = "./output/Figure2/ff_quad_n200_plot.RData")
 
-
+sessionInfo()
 

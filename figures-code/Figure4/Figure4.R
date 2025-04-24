@@ -12,3 +12,5 @@ plot = ggarrange(p_prop_diabt_glucose, p_ff_diabt_bmi_logtGlucose,
 
 ggsave(plot, file = "./figures/Figure4.pdf", width = 14, height = 6)
 ggsave(plot, file = "./figures/Figure4.eps", width = 14, height = 6)
+
+sessionInfo()

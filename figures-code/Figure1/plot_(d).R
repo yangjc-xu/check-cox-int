@@ -36,3 +36,5 @@ p_sqrt = ggplot(data = df) +
         title = element_text(size = 15))
 p_sqrt
 save(p_sqrt, file = "./output/Figure1/sqrt_plot.RData")
+
+sessionInfo()

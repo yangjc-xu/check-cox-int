@@ -45,3 +45,5 @@ p_ff_diabt_bmi_logtGlucose = ggplot(data = df_ff_diabt_bmi) +
     title = element_text(size = 18))
 p_ff_diabt_bmi_logtGlucose
 save(p_ff_diabt_bmi_logtGlucose, file = "./output/Figure4/ff_diabt_bmi_logtGlucose_plot.RData")
+
+sessionInfo()

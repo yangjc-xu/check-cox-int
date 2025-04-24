@@ -224,3 +224,5 @@ p_prop_quad_n800 = ggplot(data = df) +
         title = element_text(size = 15))
 p_prop_quad_n800
 save(p_prop_quad_n800, file = "./output/FigureS2/prop_quad_n800_graph_plot.RData")  
+
+sessionInfo()

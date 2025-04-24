@@ -135,3 +135,5 @@ for (k in 1:n_simulation) {
 }
 
 save(W_score_all, x, t, file = "./output/Figure1/log_raw.RData")
+
+sessionInfo()

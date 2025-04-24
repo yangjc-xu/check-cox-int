@@ -76,3 +76,5 @@ for (i in 1:length(index)) {
 result_aric$beta
 sqrt(diag(result_aric$Cov1))
 save(result_aric, X_aric, X_dep_new, simpdat_aric, Time_aric, file = "result_estimation_diabt_logtGlucose_logBMI_inference.RData")
+
+sessionInfo()

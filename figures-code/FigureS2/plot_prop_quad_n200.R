@@ -225,3 +225,4 @@ p_prop_quad_n200 = ggplot(data = df) +
 p_prop_quad_n200
 save(p_prop_quad_n200, file = "./output/FigureS2/prop_quad_n200_graph_plot.RData")  
 
+sessionInfo()

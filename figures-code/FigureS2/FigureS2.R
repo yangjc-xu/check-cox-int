@@ -14,3 +14,5 @@ p_prop = ggarrange(p_prop_mono_n200, p_prop_mono_n400, p_prop_mono_n800,
                    ncol = 3, nrow = 2)
 ggsave(p_prop, file = "./figures/FigureS2.pdf", width = 16, height = 9, units = "in")
 ggsave(p_prop, file = "./figures/FigureS2.eps", width = 16, height = 9, units = "in")
+
+sessionInfo()

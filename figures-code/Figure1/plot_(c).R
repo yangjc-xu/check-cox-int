@@ -37,3 +37,5 @@ p_exp = ggplot() +
         title = element_text(size = 15))
 p_exp
 save(p_exp, file = "./output/Figure1/exp_plot.RData")
+
+sessionInfo()

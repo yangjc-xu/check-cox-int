@@ -225,4 +225,4 @@ p_prop_quad_n400 = ggplot(data = df) +
 p_prop_quad_n400
 save(p_prop_quad_n400, file = "./output/FigureS2/prop_quad_n400_graph_plot.RData")  
 
-
+sessionInfo()

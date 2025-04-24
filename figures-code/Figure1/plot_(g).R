@@ -36,3 +36,5 @@ p_hr = ggplot() +
         title = element_text(size = 15))
 p_hr
 save(p_hr, file = "./output/Figure1/hr_plot.RData")
+
+sessionInfo()

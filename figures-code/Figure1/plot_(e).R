@@ -40,3 +40,5 @@ p_ind = ggplot() +
         title = element_text(size = 15))
 p_ind
 save(p_ind, file = "./output/Figure1/ind_plot.RData")
+
+sessionInfo()
